@@ -75,6 +75,6 @@ def get_sphere_vol(radius)
 end
 
 def get_celsius(farenheit)
-  temperture = (farenheit-32)*2
-  return temperture
+  temperture = (farenheit-32) * (5.0/9.0)
+  return temperture.round(2)
 end
